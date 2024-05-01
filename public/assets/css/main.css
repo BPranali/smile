@@ -1,0 +1,40 @@
+::before, ::after {
+    -webkit-box-sizing: border-box;
+  
+    -moz-box-sizing: border-box;
+  
+    box-sizing: border-box;
+  
+  }
+  element {
+    display: block;
+  
+  }
+  .collapse.navbar-collapse {
+    background-color: #252525;
+  
+  }
+  @media (max-width: 480px) {
+    .collapse {
+      padding: 0 20px 30px;
+  
+    }
+  }
+  .collapse {
+    width: 100%;
+  
+    padding: 0 60px;
+  
+    overflow: hidden;
+  
+    display: none;
+  
+    z-index: 1;
+  
+    text-align: left;
+  
+  }
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+  
+  }
